@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 20px;
+}
+body {
+	background: white;
+	font-family: sans-serif;
+}
+body>h1:first-of-type {
+	margin: 0;
+	padding: 1rem 3rem;
+	padding-top: 3rem;
+	background: #0f1020;
+	color: #bcc1ba;
+	font-weight: normal;
+}
+body>h2:first-of-type {
+	margin-bottom: 2rem;
+}
+body>h2 {
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 1rem 3rem;
+	background: #0f1020;
+	color: #bcc1ba;
+	font-weight: normal;
+}
+body>p {
+	padding-left: 3rem;
+	max-width: 40em;
+}
+pre {
+	display: inline-block;
+	font-size: 0.8rem;
+	padding: 0 3rem;
+	background: #9FB7B9;
+}

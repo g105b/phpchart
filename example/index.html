@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>phpchart</title>
+<link rel="stylesheet" href="/style.css" />
+
+<h1>phpchart</h1>
+<h2>
+	Minimal SVG charts generated on the server, without the need for JavaScript
+</h2>
+
+<p>
+	phpchart has three core objectives: speed, simplicity and portability.
+</p>
+<p>
+	Rather than concentrating on animations and interactivity, phpchart renders on the server, which means there is no JavaScript required to build beautiful, functional charts.
+</p>
+<pre><code>
+&lt;?php
+$chart = new Chart();
+$chart->type = Chart::TYPE_BAR;
+$chart->title = "Browser market share (January 2015)";
+$chart->subtitle = "Source Wikipedia";
+$chart->series = [
+	new Series(
+		// TODO: Define syntax
+	]);
+];
+$chart->render("#container");
+</code></pre>
+
+<h2>Demonstration</h2>
+<iframe src="/demo-list.html"></iframe>
