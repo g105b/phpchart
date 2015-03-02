@@ -4,8 +4,46 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4af066437fa9f8358cc80c2d64c9e580",
-    "packages": [],
+    "hash": "1c52a395f5e5f83ee69d559e47d4d790",
+    "packages": [
+        {
+            "name": "g105b/phpsvg",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/g105b/phpsvg.git",
+                "reference": "3170212f612185e0ad4344fc803177d15d148507"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/g105b/phpsvg/zipball/3170212f612185e0ad4344fc803177d15d148507",
+                "reference": "3170212f612185e0ad4344fc803177d15d148507",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "g105b\\phpsvg\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SVG library aimed at compatibility with HTML5 CanvasRenderingContext2D API",
+            "keywords": [
+                "HTML5",
+                "api",
+                "canvas",
+                "draw",
+                "svg"
+            ],
+            "time": "2015-03-02 20:21:09"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -960,8 +998,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "g105b/phpsvg": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
