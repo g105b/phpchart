@@ -13,9 +13,9 @@ public function tearDown() {
 }
 
 public function testCreates() {
-	$svg = new Svg();
-	$output = $svg->render();
-	$this->assertEmpty(trim($output), $output);
+	$chart = new Chart();
+	$output = $chart->render();
+	$this->assertNotEmpty(trim($output));
 }
 
 }#
